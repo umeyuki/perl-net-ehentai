@@ -1,4 +1,4 @@
-This is Perl module Net::E::Hentai.
+This is Perl module Net::Ehentai.
 
 INSTALLATION
 
@@ -20,7 +20,7 @@ DOCUMENTATION
 
 Net::E::Hentai documentation is available as in POD. So you can do:
 
-    % perldoc Net::E::Hentai
+    % perldoc Net::Ehentai
 
 to read the documentation online with your favorite pager.
 
