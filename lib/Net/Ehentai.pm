@@ -7,7 +7,6 @@ use autodie;
 use WWW::Mechanize;
 use Web::Query;
 use Carp;
-use Data::Dumper::Concise;
 use LWP::UserAgent;
 use File::Basename;
 use File::Spec;
@@ -72,7 +71,7 @@ sub _process {
                 my $filename = File::Spec->catfile($self->{prefix} , basename($image_url));
                 my $res = $self->ua->get($image_url, ':content_file' => $filename);
                 die unless $res->is_success;
-                sleep 5;
+                sleep 3;
             }
         );
 }
