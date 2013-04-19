@@ -18,7 +18,7 @@ Then install it:
 
 DOCUMENTATION
 
-Net::E::Hentai documentation is available as in POD. So you can do:
+Net::Ehentai documentation is available as in POD. So you can do:
 
     % perldoc Net::Ehentai
 

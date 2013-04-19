@@ -12,17 +12,19 @@ use File::Basename;
 use File::Spec;
 our $VERSION = '0.01';
 
+=head1 DESCRIPTION
+
+Net::ehentai is a downloader for e-hentai.org.
+
 =head1 SYNOPSIS
 
 use Net::Ehentai;
 
-my $ne = Net::E::Hentai->new( url => 'http://g.e-hentai.org/g/177964/cc25675a95/');
+my $ne = Net::Ehentai->new( prefix => $prefix url => $target_index_url );
+
+mkdir $prefix unless -d $prefix;
 
 $ne->download();
-
-
-eh.download();
-
 
 =cut
 
